@@ -1,0 +1,13 @@
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Application.deps.json
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Application.dll
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Application.pdb
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Domain.dll
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Persistance.dll
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Domain.pdb
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/bin/Debug/netstandard2.1/Persistance.pdb
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/obj/Debug/netstandard2.1/Application.csprojAssemblyReference.cache
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/obj/Debug/netstandard2.1/Application.AssemblyInfoInputs.cache
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/obj/Debug/netstandard2.1/Application.AssemblyInfo.cs
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/obj/Debug/netstandard2.1/Application.csproj.CopyComplete
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/obj/Debug/netstandard2.1/Application.dll
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/Application/obj/Debug/netstandard2.1/Application.pdb
