@@ -1,34 +1,38 @@
-import React from 'react';
-import {Component} from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { timingSafeEqual } from 'crypto';
+import React from "react";
+import { Component } from "react";
+import { Header, Icon, List } from "semantic-ui-react";
+import "./App.css";
+import axios from "axios";
 
 class App extends Component {
   state = {
-    values: []
-  }
+    values: [],
+  };
 
-  componentDidMount(){
-    this.setState({
-      values:[{Id: 1, name: "Value 001"}, {Id: 2, name: "Value 606"}]
-    })
+  componentDidMount() {
+    axios.get("http://localhost:5000/api/values").then((response) => {
+      console.log(response);
+      this.setState({
+        values: response.data,
+      });
+    });
   }
 
   render() {
     return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <ul>
+      <div>
+        <Header as="h2">
+          <Icon name="plug" />
+          <Header.Content>Reactivies</Header.Content>
+        </Header>
+        <List>
           {this.state.values.map((value: any) => (
-            <li>{value.name}</li>
+            <List.Item key={value.id}>{value.name}</List.Item>
           ))}
-        </ul>
-      </header>
-    </div>
+        </List>
+      </div>
     );
-  };
+  }
 }
 
 export default App;
