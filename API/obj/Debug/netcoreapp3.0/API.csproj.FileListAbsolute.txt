@@ -66,3 +66,5 @@
 /Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/API/obj/Debug/netcoreapp3.0/API.csproj.CopyComplete
 /Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/API/obj/Debug/netcoreapp3.0/API.dll
 /Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/API/obj/Debug/netcoreapp3.0/API.pdb
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/API/bin/Debug/netcoreapp3.0/MediatR.dll
+/Users/mqumairi/Documents/CS/ASP .NET + React Course/Projects/Reactivities/API/bin/Debug/netcoreapp3.0/MediatR.Extensions.Microsoft.DependencyInjection.dll
