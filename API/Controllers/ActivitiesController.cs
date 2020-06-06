@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using Application.Activites;
@@ -23,6 +24,22 @@ namespace API.Controllers
         {
             return await mediator.Send(new List.Query());
         }
+
+        [HttpGet("{id}")]
+        public async Task<ActionResult<Activity>> Details(Guid id)
+        {
+            return await mediator.Send(new Details.Query{Id = id});
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult<Unit>> Create(Create.Command command)
+        {
+            return await mediator.Send(command);
+        }
+
+
+
     }
 
 }
