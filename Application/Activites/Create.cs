@@ -35,6 +35,7 @@ namespace Application.Activites
                     Id = request.Id,
                     Title = request.Title,
                     Description = request.Description,
+                    Category = request.Category,
                     Date = request.Date,
                     City = request.City,
                     Venue = request.Venue
